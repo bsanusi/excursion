@@ -1,0 +1,61 @@
+/* universal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  font-family: Verdana;
+  text-align: center;
+  line-height: 70px;
+}
+
+a {
+  color: aquamarine;
+  font-size: 16px;
+}
+
+h1 {
+  color: white;
+}
+
+/* header */
+
+header h1 {
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* sections */
+h1.travel-guide-header {
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.camp-container p {
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+}
+
+@media screen and (max-width: 1000px) {
+  .camp-image {
+    width: 100%;
+  }
+}
+
+/* footer */
+footer {
+  text-align: right;
+  color: gray;
+  margin-right: 15px;
+}
